@@ -41,7 +41,7 @@ const HomePage = () => {
         <MainLayout>
             <AnimatePresence>
                 {isLoading &&
-                    (<motion.div key={'modal'} onClick={() => setLoading(!isLoading)} className="bg-yellow-400 left-0 flex flex-col h-screen z-50 w-0 fixed" initial={{ width: '100%', scale: 0 }} exit={variants.loaded} animate={{ width: "100%", scale: 1 }} >
+                    (<motion.div key={'modal'} className="bg-yellow-400 left-0 flex flex-col h-screen z-50 w-0 fixed" initial={{ width: '100%', scale: 0 }} exit={variants.loaded} animate={{ width: "100%", scale: 1 }} >
                         <motion.div className="relative mx-auto my-auto" exit={{ opacity: 0 }} ><div className="text-center  text-2xl">Hello Human</div><div className="text-xs text-center">Ready ({progress}s)</div>
                         <div className="absolute h-full w-full lg:bottom-0 transform translate-y-1/2">
                         <div className="relative w-full h-full lg:h-full lg:w-full">
