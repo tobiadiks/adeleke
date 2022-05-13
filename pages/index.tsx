@@ -12,7 +12,7 @@ const HomePage = () => {
     const [isLoading, setLoading] = useState<boolean>(true)
     const [progress, setProgress] = useState(5);
 
-  let progressTimer:NodeJS.Timer;
+  let progressTimer;
 
   function handleTime() {
     setProgress((prevState) => prevState -1);
@@ -25,7 +25,7 @@ const HomePage = () => {
   }, [progress]);
 
   useEffect(() => {
-    console.log("Timer start");
+    
     progressTimer = setInterval(handleTime, 1000);
 
     return () => clearInterval(progressTimer);
@@ -50,6 +50,7 @@ const HomePage = () => {
                             layout='responsive'
                             width={530}
                             height={624}
+                            alt=''
                         />
                     </div></div>
                         </motion.div>
@@ -65,6 +66,7 @@ const HomePage = () => {
                         layout='responsive'
                         width={470}
                         height={137}
+                        alt=''
                     />
                 </div>
             </nav>
@@ -83,6 +85,7 @@ const HomePage = () => {
                             layout='responsive'
                             width={452}
                             height={460}
+                            alt=''
                         />
                     </div>
                 </div>
@@ -121,6 +124,7 @@ const HomePage = () => {
                             layout='responsive'
                             width={1367}
                             height={632}
+                            alt=''
                         />
                     </div>
                 </div>
@@ -142,6 +146,7 @@ const HomePage = () => {
                             layout='responsive'
                             width={1367}
                             height={632}
+                            alt=''
                         />
                     </div>
                 </div>
@@ -162,6 +167,7 @@ const HomePage = () => {
                             layout='responsive'
                             width={1367}
                             height={632}
+                            alt=''
                         />
                     </div>
                 </div>
@@ -182,6 +188,7 @@ const HomePage = () => {
                             layout='responsive'
                             width={1367}
                             height={632}
+                            alt=''
                         />
                     </div>
                 </div>
@@ -202,6 +209,7 @@ const HomePage = () => {
                             layout='responsive'
                             width={1367}
                             height={632}
+                            alt=''
                         />
                     </div>
                 </div>
