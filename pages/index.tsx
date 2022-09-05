@@ -74,9 +74,9 @@ const HomePage = () => {
                 <div className="bg-black h-64 w-64 rounded-full  absolute blur-[150px] right-12 top-12"></div>
                 <div className="w-full lg:w-1/2">
                     <div className="my-2 text-sm">ADELEKE OLUWATOBI</div>
-                    <div className="my-2 text-2xl  lg:text-4xl">SOFTWARE AND UI ENGINEER FROM EARTH</div>
-                    <div className="my-2">I am a Fullstack Software Engineer with years of experience architecting, designing and building solutions.</div>
-                    <div className="text-center bg-black text-white mt-4 cursor-pointer hover:bg-gray-800 w-fit px-4 py-4">LET&apos;S TALK</div>
+                    <div className="my-2 text-2xl  lg:text-4xl">FRONTEND AND UI ENGINEER</div>
+                    <div className="my-2">I love tinkering with color, and experimenting on interface with focus on good user experience.</div>
+                    <a href="mailto:tobiadiks@gmail.com"><div className="text-center bg-black text-white mt-4 cursor-pointer hover:bg-gray-800 w-fit px-4 py-4">LET&apos;S TALK</div></a>
                 </div>
                 <div className="w-full lg:w-1/2 mb-4 lg:mb-0">
                     <div className="relative w-full h-full lg:h-full lg:w-1/2 mx-auto my-auto">
@@ -94,12 +94,12 @@ const HomePage = () => {
                 <div className="lg:w-2/3 lg:border-0 border-r-2 border-black pr-2 lg:pr-4 py-8">
                     <div className="my-2 text-gray-500 text-sm ">SKILLS</div>
                     <div className="grid gap-4 lg:grid-cols-2 lg:grid-rows-3">
-                        <div>FRONTEND DEV</div>
-                        <div>BACKEND DEV</div>
-                        <div>UI ENGINEER</div>
-                        <div>API DEVELOPMENT</div>
-                        <div>WEB3 DEV</div>
-                        <div>TECHNICAL WRITER</div>
+                        <div>REACT JS</div>
+                        <div>NEXT JS</div>
+                        <div>VUE JS</div>
+                        <div>TAILWINDCSS</div>
+                        <div>STYLED COMPONENTS</div>
+                        <div>API DEVELOPMENT & INTEGRATION</div>
                     </div>
                 </div>
                 <div className="w-1/3 border-l-2 border-black pl-2 lg:pl-4 py-8">
@@ -129,9 +129,10 @@ const HomePage = () => {
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 lg:pl-2" >
-                    <div className="text-gray-500 text-sm underline my-4">
+                    <a href="https://notics.vercel.app"><div className="text-gray-500 text-sm underline my-4">
                         NOTICS
                     </div>
+                    </a>
                     <div className=" lg:text-2xl my-2">PRODUCTIVITY</div>
                     <div className="my-4 text-gray-500">Notics is the business tool for collecting and processing feedbacks using industry grade AI assistants.
                     </div>
@@ -151,11 +152,12 @@ const HomePage = () => {
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 lg:pl-2" >
-                    <div className="text-gray-500 text-sm underline my-4">
-                        LEARNALI
+                <a href="http://staging-app.learnali.com/dashboard"><div className="text-gray-500 text-sm underline my-4">
+                    LEARNALI
                     </div>
-                    <div className=" lg:text-2xl my-2">EDTECH/LMS</div>
-                    <div className="my-4 text-gray-500">Acquire the skill you need to land your dream Job with world class training and career path programs from top organisations.</div>
+                    </a>
+                    <div className=" lg:text-2xl my-2">LMS DASHBOARD</div>
+                    <div className="my-4 text-gray-500">A learners dashboard showing all suggessted courses, achievements, jobs and badges.</div>
                 </div>
             </section>
 
@@ -172,9 +174,10 @@ const HomePage = () => {
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 lg:pl-2" >
-                    <div className="text-gray-500 text-sm underline my-4">
-                        CSTORY
+                <a href="https://cstory.vercel.app"><div className="text-gray-500 text-sm underline my-4">
+                    CSTORY
                     </div>
+                    </a>
                     <div className="lg:text-2xl my-2">COMMUINITY</div>
                     <div className="my-4 text-gray-500">A personal space for you to start blogging, reading and building community.</div>
                 </div>
@@ -182,22 +185,23 @@ const HomePage = () => {
 
             <section className="lg:flex flex-row-reverse my-16">
                 <div className="w-full lg:pr-2 lg:w-1/2">
-                    <div className="relative w-full h-full lg:h-full lg:w-full">
-                        <Image
+                    <div className="relative bg-gray-200 w-full h-full lg:h-full lg:w-full">
+                        {/* <Image
                             src={'/finva.png'}
                             layout='responsive'
                             width={1367}
                             height={632}
                             alt=''
-                        />
+                        /> */}
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 lg:pl-2" >
-                    <div className="text-gray-500 text-sm underline my-4">
-                        FINVA
+                <a href="https://finva.vercel.app"><div className="text-gray-500 text-sm underline my-4">
+            FINVA
                     </div>
+                    </a>
                     <div className=" lg:text-2xll my-2">FINANCE/ANALYTICS</div>
-                    <div className="my-4 text-gray-500">An online financial analytics and bank transaction tracker from the comfort of your device</div>
+                    <div className="my-4 text-gray-500">Landing Page for an online financial analytics and bank transaction tracker from the comfort of your device</div>
                 </div>
             </section>
 
@@ -214,11 +218,34 @@ const HomePage = () => {
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 lg:pl-2" >
-                    <div className="text-gray-500 text-sm underline my-4">
-                        BANKO
+                <a href="#"><div className="text-gray-500 text-sm underline my-4">
+                    BANKO
                     </div>
+                    </a>
                     <div className=" lg:text-2xl my-2">API/MOBILE BANK</div>
                     <div className="my-4 text-gray-500">A digital bank API enabling virtual process that includes online banking and beyond.</div>
+                </div>
+            </section>
+
+            <section className="lg:flex flex-row-reverse my-16">
+                <div className="w-full lg:pr-2 lg:w-1/2">
+                    <div className="relative w-full h-full lg:h-full lg:w-full">
+                        <Image
+                            src={'/bitmama.png'}
+                            layout='responsive'
+                            width={1367}
+                            height={632}
+                            alt=''
+                        />
+                    </div>
+                </div>
+                <div className="w-full lg:w-1/2 lg:pl-2" >
+                <a href="https://bitmama-eight.vercel.app"><div className="text-gray-500 text-sm underline my-4">
+            MULTI-USER-LOGIN
+                    </div>
+                    </a>
+                    <div className=" lg:text-2xll my-2">AUTH</div>
+                    <div className="my-4 text-gray-500">A multi-user authentication that expires an idle user session after 1 minute.</div>
                 </div>
             </section>
 
